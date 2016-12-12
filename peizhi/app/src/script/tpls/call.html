@@ -1,0 +1,13 @@
+<div>
+	<h1>这是售后服务页面</h1>
+	<!-- <ul ng-repeat="item in items">
+		<li>产品序列号：{{item.id}}</li>
+		<li>产品名称：{{item.product}}</li>
+		<li>产品保修期：{{item.times}}</li>
+	</ul> -->
+	<input type="text" ng-module="search"><input type="button" value="搜索">
+	<dl ng-repeat="item in items">
+		<dd><span>{{item.id}}</span>产品名称：{{item.product}}</dd>
+		<dt>保修期：{{item.times}}</dt>
+	</dl>
+</div>
